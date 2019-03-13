@@ -4,9 +4,8 @@ using namespace std;
 
 int main()
 {
-    cout << "9|R H B Q K B H R|" << endl;
-    cout << "8|P P P P P P P P|" << endl;
-    cout << "7|               |" << endl;
+    cout << "8|r h b q k b h r|" << endl;
+    cout << "7|p p p p p p p p|" << endl;
     cout << "6|               |" << endl;
     cout << "5|               |" << endl;
     cout << "4|               |" << endl;
