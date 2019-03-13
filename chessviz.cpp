@@ -1,17 +1,28 @@
 #include <iostream>
 #include <stdio.h>
-using namespace std;
 
 int main()
 {
-    cout << "8|r h b q k b h r|" << endl;
-    cout << "7|p p p p p p p p|" << endl;
-    cout << "6|               |" << endl;
-    cout << "5|               |" << endl;
-    cout << "4|               |" << endl;
-    cout << "3|               |" << endl;
-    cout << "2|P P P P P P P P|" << endl;
-    cout << "1|R H B Q K B H R|" << endl;
-    cout << "  a b c d e f g h " << endl;
-    return 0;
+    char desk[9][9] = {{'R', 'H', 'B', 'Q', 'K', 'B', 'H', 'R'},
+                       {'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'},
+                       {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
+                       {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
+                       {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
+                       {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
+                       {'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'},
+                       {'r', 'h', 'b', 'k', 'q', 'b', 'h', 'r'}};
+    int i, j;
+
+    for (i = 0; i < 8; i++) {
+        printf("%d| ", i + 1);
+        for (j = 0; j < 8; j++) {
+            printf("%c ", desk[i][j]);
+        }
+        printf("\n");
+    }
+    printf("   ");
+
+    for (i = 0; i < 8; i++)
+        printf("%c ", i + 65);
+    printf("\n");
 }
