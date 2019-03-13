@@ -15,3 +15,4 @@ int main()
     cout << "1|R H B Q K B H R|" << endl;
     cout << "  a b c d e f g h " << endl;
     return 0;
+}
