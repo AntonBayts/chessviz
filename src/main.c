@@ -19,7 +19,6 @@ int main()
 
     printf("     Шахматы\n");
     printf("Пример обычного хода: E2-E4\n");
-    printf("Пример хода взятия: E2xE4\n");
 
     printdesk();
 
@@ -43,7 +42,7 @@ int main()
         }
     }
 
-    printf("Player %d win\n", status);
+    printf("Игрок %d выиграл\n", status);
 
     return 0;
 }
