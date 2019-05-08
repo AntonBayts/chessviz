@@ -1,2 +1,5 @@
-*.sos
-*.swp
+*.o
+.main.c.swp
+.gitkeep
+chess.c
+main
