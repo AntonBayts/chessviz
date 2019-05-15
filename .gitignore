@@ -1,3 +1,4 @@
 *.o
+.gitkeep
 .main.c.swp
 main
